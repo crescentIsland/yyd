@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历</title>
+    <link rel="stylesheet" href="./CSS/resume.css">
+</head>
+<body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header,用html5 -->
+    <header class="top">
+        <img id="headerlogo" src="./images/headerlogo.png" 
+        alt="little girl image">
+        <!-- 这是页眉区左边的那个小女孩头像 -->
+        <img id="headerslogan" src="./images/headersloganblack.png"
+        alt="a sentence from a movie">
+        <!-- 这是页眉区右边那个名言的图片 -->
+    </header>
+    <!-- end of header -->
+    <nav><!-- 导航 -->
+        <ul><!-- 使用无序列表元素来放置导航文字 -->
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./resume.html">简历</a></li>
+            <li><a href="./hobbies.html">兴趣爱好</a></li>
+            <li><a href="./messageBoard.html">留言板</a></li>
+        </ul>
+    </nav>
+    <!-- end of nav -->
+    <div id="container1">
+        <!-- 1号区域，里面以表格的方式展示三个字盒子，分别用来放照片、个人基础信息和教育背景信息 -->
+        <div class="containerRow">
+            <div id="container1_1">
+                <img id="yyd" src="./images/yyd.jpg" alt="证件照">
+            </div>
+            <!-- end of container1_1 -->
+            <div id="container1_2">
+                <h1>教育背景</h1>
+                <p>2021.09-2025.06   中南财经政法大学 信息与安全工程学院 </p>
+                <p>大数据管理与应用+金融工程（辅修双学位）</p>
+                <li>成绩：88.08/100 GPA：3.68/4</li>
+                <li>政治面貌：发展对象</li>
+                <li>专业证书：英语四级587、ACCA已通过6门</li>
+                <li>奖项证书：2023年大学生创新创业训练计划项目省级立项</li>
+                <li>第三十四届“博文杯”百项实证创新基金项目立项</li>
+                <li>2023.5校级优秀干部</li>
+                <li>2022.5院级优秀干部</li>
+            </div>
+            <!-- end of container1_2 -->
+            <div id="container1_3">
+                <h1>杨颜多</h1>
+                <p>电话：86-15191683069</p>
+                <p>地址：湖北省武汉市洪山区中南财经政法大学南湖校区（430073）</p>
+                <p>邮箱：yangyanduo369@163.com</p>
+            </div>
+            <!-- end of container1_3 -->
+        </div>
+        <!-- end of containerRow -->
+    </div>
+    <div id="container2">
+        <!-- 2号区域container2,里面以表格的方式展示三个字盒子，分别用来放学生工作、竞赛经历和其他信息 -->
+        <div class="containerRow">
+            <div id="container2_1">
+                <h1>学生工作</h1>
+                <h2>2021.9-至今   数金2101（双）班|学习委员</h2>
+                <p>协助讲师完成教学工作，收集整理学生存留疑惑，在学生与各项学术竞赛及活动负责人之间进行联络</p>
+                <h2>2021.9-2022.6   中南财经政法大学工程学院志愿者协会|策划部干事</h2>
+                <p>参与策划“反捐卵”、“春联”等校内活动</p>
+                <p>负责活动宣传及复盘，与其他志协部门进行积极联络，协助部门活动的开展及宣传</p>
+            </div>
+            <!-- end of container2_1 -->
+            <div id="container2_2">
+                <h1>竞赛经历</h1>
+                <h2>2023年大学生创新创业训练计划项目|队长</h2>
+                <p>对我国碳定价、碳交易政策对于新能源汽车行业的发展影响进行调研，与队员建立模型评估有关碳政策的效应，取得省级立项。</p>
+                <p>对课题所需的碳价、能源价格和盈利额等数据进行爬取；与小组根据相关关系建立LASSO和随机森林模型。</p>
+                <p>归纳建模流程，撰写相关论文五千字。</p>
+                <h2>第三十四届“博文杯”百项实证创新基金项目|核心队员</h2>
+                <p>对我国车规级芯片行业发展进行调研，与队员建立对国内车规级芯片效能评估分析的评价体系,取得院级立项第一名。</p>
+                <p>对课题所需的北京四维图新企业重要财务信息和产品信息进行爬取搜集；与小组其他成员合作分析所爬取的数据，使用解释结构模型（interpretative structural model，ISM）、交叉影响矩阵相乘法（MICMAC）对爬取数据进行建模处理。</p>
+                <p>绘画ISM和MICMAC模型构建流程图，并出具两千字文字报告。</p>
+            </div>
+            <!-- end of container2_2 -->
+            <div id="container2_3">
+                <h1>其他信息</h1>
+                <p>计算机水平：MS OFFICE,PyCharm,Visual C++6.0,Visual Studio,Intelij Idea,Navicat,SSMS</p>
+                <p>编程语言：C++,Python,Java,MySQL,SQL server</p>
+            </div>
+            <!-- end of container2_3 -->
+        </div>
+        <!-- end of containerRow -->
+    </div>
+    <!-- end of container2 -->
+    <footer>
+        Copyright&copy;杨颜多.2023 All Rights Reserved
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>

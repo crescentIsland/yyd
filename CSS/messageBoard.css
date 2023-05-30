@@ -1,0 +1,102 @@
+body {
+    background-color: #a0b8a0;
+    /* 页面背景为浅绿色 */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 字体按从左到右按浏览器有的选择 */
+    font-size: normal;
+    /* 字体大小为正常 */
+    margin: 0px;
+    /* 设置整个页面没有外边距 */
+}
+header {
+    background-color: #5c964a;
+    margin: 30px 50px 0px 50px;
+    /* 设置左右外边距为50px, 后面的每个盒子左右边距也为50px；
+    上外边距为50px,下外边距为0px，因为下面元素nav的上边距为10px,
+    根据两个元素之间间距选择最大的外边距原则，header和nav的间距为10px*/
+    height: 108px;
+    /* header盒子高度为108px */
+}
+header.top img#headerlogo {
+    height: 108px;
+    /* 设置图片的高度为108px,与父盒子高度相同 */
+}
+header.top img#headerslogan {
+    height: 108px;
+    /* 设置图片的高度为108px,与父盒子高度相同 */
+    float: right;
+    /* 让该图片浮动到最右边 */
+}
+nav{
+    background-color: #b6d1b6;
+    margin: 10px 50px 10px 50px;
+    /* 设置该导航模块左右外边距为50px，上下边距为10px */
+} 
+
+nav ul {
+    margin: 0px;/* 紧贴放在nav元素中 */
+    list-style-type: none;/* 列表不显示任何符号和标志 */
+    padding: 5px 0px 5px 0px;
+    /* 上下内边距为5px,左右无内边距 */
+}
+nav ul li {
+    display: inline;
+    /* 将其变为内联元素，即元素不换行，在一行中展示 */
+    padding: 5px 10px 5px 10px;
+    /* 内边距为上下5px,左右10px */
+}
+
+nav ul li a:link,nav ul li a:visited {
+    /* 这里使用伪类 */
+    color: #ea786d;
+    /* 将尚未点击的和已访问过的连接都设置为粉色 */
+    font-weight: bold;
+    /* 加黑字体，bold相当于字体700 */
+}
+
+div#main {
+    margin: 10px 50px;
+    border: #5c964a dotted;
+    padding: 10px;
+}
+
+form {
+	display: table;
+    /* 作为块级表格显示 */ 
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #a9c2ac;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+    /* 设置留言区域宽500px,长200px */
+}
+
+div.tableRow {
+	display: table-row;
+    /* 作为表格行显示 */
+}
+
+div.tableRow p {
+	display: table-cell;
+    /* 作为表格单元格显示 */
+	vertical-align: top;
+    /* 设置相对父元素在垂直方向对齐 */
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	/* p:first-child伪类：选择第一个子元素 */
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
+footer {
+    background-color: #5c964a;
+    color: #024c1c;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 50px 10px 50px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YANGYANDUO</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header,用html5 -->
+    <header class="top">
+        <img id="headerlogo" src="./images/headerlogo.png" 
+        alt="little girl image">
+        <!-- 这是页眉区左边的那个小女孩头像 -->
+        <img id="headerslogan" src="./images/headersloganblack.png"
+        alt="a sentence from a movie">
+        <!-- 这是页眉区右边那个名言的图片 -->
+    </header>
+    <!-- end of header -->
+    <nav><!-- 导航区 -->
+        <ul><!-- 使用无序列表元素来放置导航文字 -->
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./resume.html">简历</a></li>
+            <li><a href="./hobbies.html">兴趣爱好</a></li>
+            <li><a href="./messageBoard.html">留言板</a></li>
+        </ul>
+    </nav>
+    <!-- end of nav -->
+    <!-- 1号内容区container1,内部为一个子盒子slogan，里面是我的名字和身份 -->
+    <div id="container1">
+        <div id="slogan">
+            <span class="slogan">
+                <h1>杨颜多</h1>
+                YANG YANDUO<br>
+                生活探险家<br>
+                白日梦想家<br>
+                地球旅行家<br>
+            </span>
+        </div>
+    </div>
+    <!-- end of container1 -->
+    <!-- 2号内容区container2,内部分为三个部分，左侧部分left用来装描写欢迎
+    的句子，中间main部分用来放最新动态，右边aside部分用来放学校的美景 -->
+    <div id="container2">
+        <div id="container2Row">
+            <section id="left">
+                <h1>Welcome to my website!</h1>
+                <h2>Nice to meet you!</h2>
+                <p>Hola!欢迎你来到我的秘密基地。我是杨颜多，一个正在就读于中南财经政法大学信息与安全工程学院的学生。</p>
+                <p>你对我有多少了解呢？在这里你能更全面地了解我的个人经历和兴趣爱好。快来探索一下吧！</p>
+                <img id="me" src="./images/me.jpg" alt="myself picture">
+            </section>
+            <section id="main">
+                <h1>最新动态</h1>
+                <h4 class="main">最近在做什么？</h4>
+                <p class="main">在写数据库和web的大实验。</p>
+                <h4 class="main">最近观看了什么电影？</h4>
+                <p class="main">去影院看了重新上映的《泰坦尼克号》和漫威电影《银河护卫队3》。</p>
+                <img class="main" src="./images/Jack.jpg" alt="Jack from Titanic">
+                <img class="main" src="./images/Rose.jpg" alt="Rose from Titanic">
+                <h4 class="main">最近吃到了什么美食？</h4>
+                <p class="main">仓桥家的日料</p>
+                <img class="main" src="./images/omurice.jpg" alt="omurice">
+                <img class="main" src="./images/sushi.jpg" alt="sushi">
+                <h4 class="main">最近阅读了什么书？</h4>
+                <p class="main">澳大利亚作者考林·麦卡洛的<a class="book" href="https://book.douban.com/subject/3169746/">《荆棘鸟》</a></p>
+                <P class="main">美籍阿富汗裔作者卡勒德·胡赛尼的<a class="book" href="https://book.douban.com/subject/2143732/">《灿烂千阳》</a></P>
+            </section>
+            <aside>
+                <h1>每日照片</h1>
+                <h2 class="aside">文波楼</h2>
+                <img class="school" src="./images/school1.jpg" alt="文波楼">
+                <h2 class="aside">中原楼</h2>
+                <img class="school" src="./images/school2.jpg" alt="中原楼">
+                <h2 class="aside">九孔桥</h2>
+                <img class="school" src="./images/school3.jpg" alt="九孔桥">
+                <h2 class="aside">晓南湖</h2>
+                <img class="school" src="./images/school4.jpg" alt="晓南湖">
+            </aside>
+        </div>
+        <!-- end of container2Row -->
+    </div>
+    <!-- end of container2 -->
+    <!-- 页脚区footer,用html5 -->
+    <footer>
+        Copyright&copy;杨颜多.2023 All Rights Reserved
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>

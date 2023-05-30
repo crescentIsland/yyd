@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <link rel="stylesheet" href="./CSS/messageBoard.css">
+</head>
+<body>
+    <!-- 可以通过左边的大纲视图查看文档结构，选择按位置查看 -->
+    <!-- 页眉区header,用html5 -->
+    <header class="top">
+        <img id="headerlogo" src="./images/headerlogo.png" 
+        alt="little girl image">
+        <!-- 这是页眉区左边的那个小女孩头像 -->
+        <img id="headerslogan" src="./images/headersloganblack.png"
+        alt="a sentence from a movie">
+        <!-- 这是页眉区右边那个名言的图片 -->
+    </header>
+    <!-- end of header -->
+    <nav><!-- 导航区 -->
+        <ul>
+            <li><a href="./index.html">主页</a></li>
+            <li><a href="./resume.html">简历</a></li>
+            <li><a href="./hobbies.html">兴趣爱好</a></li>
+            <li><a href="./messageBoard.html">留言板</a></li>
+        </ul>
+    </nav>
+    <!-- end of nav -->
+    <div id="main">
+        <!-- 主区域main,里面主要是由一个表单 -->
+        <h1>留言板</h1>
+        <h2>填写下面的表格让我更了解你，点击“提交”即可提交</h2>
+        <form action="" method="post">
+            <div class="tableRow">
+                <p>姓名：</p>
+                <p> <input type="text" name="name" value="" placeholder="泰勒·斯威夫特" required> </p>
+            </div>
+            <div class="tableRow">
+                <p>性别：</p>
+                <p>
+                    <input type="radio" name="sex" id="sex">男<br>
+                    <input type="radio" name="sex" id="sex">女
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>生日：</p>
+                <p><input type="date" name="birthday" id="birthday"></p>
+            </div>
+            <div class="tableRow">
+                <p>所在地：</p>
+                <p><input type="text" name="location" id="location" placeholder="湖北武汉"></p>
+            </div>
+            <div class="tableRow">
+                <p>电话：</p>
+                <p><input type="tel" name="phoneNumber" id="phoneNumber" placeholder="8886913"></p>
+            </div>
+            <div class="tableRow">
+                <p>我们认识于：</p>
+                <p>
+                    <select name="where we first met">
+                        <option value="colleage">大学</option>
+                        <option value="highschool">高中</option>
+                        <option value="mmiddleschool">初中</option>
+                        <option value="primaryschool">小学</option>
+                    </select>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>留言：</p>
+                <p><textarea name="comments"></textarea></p>
+            </div>
+            <div class="tableRow">
+                <p></p>
+                <p> <input type="submit" value="提交"> </p>
+            </div>
+        </form>
+        <!-- end of form -->
+    </div>
+    <!-- end of main -->
+    <footer>
+        Copyright&copy;杨颜多.2023 All Rights Reserved
+    </footer>
+    <!-- end of footer -->
+</body>
+</html>
